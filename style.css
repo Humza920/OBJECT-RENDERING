@@ -1,0 +1,36 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family:sans-serif}
+.main-container {
+    width: 250px;
+    height: 280px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: chocolate;
+    border: 1px solid #fff;}
+
+#me{font-weight: 600;
+font-size: 40px;}
+
+#you{font-weight: 550;
+font-size: x-large;
+margin-top: px;
+}
+
+#we{font-weight: 600;
+    font-size: large;}
+
+.hr{color: #000000;
+margin-top: -5px;}    
+
+.content   :hover{background-color: #005789;
+color: white;
+}
+
+.p1{font-size: smaller;}
+
+
+
+
