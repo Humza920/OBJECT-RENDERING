@@ -7,7 +7,7 @@
  
 .main-container {
     width: 250px;
-    height: 280px;
+    height: 315px;
     border: 1px solid #000;
     border-radius: 10px;
     padding: 10px;
@@ -20,8 +20,8 @@
 #me{font-weight: 600;
     font-size: 40px;}
 
-#you{font-weight: 550;
-     font-size: x-large;
+#you{font-weight: 600;
+     font-size: xx-large;
      margin-top: px;}
 
 #we{font-weight: 600;
@@ -31,7 +31,8 @@
     margin-top: -5px;}    
 
 .content  :hover{background-color: #3998d3;
-               color: white;}
+               color: white;
+              transition-delay: 0.2s;}
 
 .p1{font-size: smaller;}
 
@@ -44,7 +45,8 @@
       text-shadow: 2px 2px 2px  #3998d3;}
 
 .head:hover{text-shadow: 3px 3px 3px chocolate;
-            color: #3998d3;}
+            color: #3998d3;
+            transition-delay: 0.2s;}
 
 /* Mobile-specific styles (max-width: 768px) */
 @media only screen and (max-width: 768px) {
@@ -69,3 +71,8 @@
   .animate__animated.animate__swing {
     --animate-duration: 2s;
   }
+/* 
+ .Cart{background-color: black;
+color: white;
+padding: 2px;
+} */
