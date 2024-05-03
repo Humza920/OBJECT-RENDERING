@@ -45,3 +45,27 @@
 
 .head:hover{text-shadow: 3px 3px 3px chocolate;
             color: #3998d3;}
+
+/* Mobile-specific styles (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .head {
+      font-size: 48px; /* reduce font size for mobile */
+      text-shadow: 1px 1px 1px #3998d3; /* reduce text shadow for mobile */
+    }
+  }
+  
+  /* Even smaller screen sizes (max-width: 480px) */
+  @media only screen and (max-width: 480px) {
+    .head {
+      font-size: 36px; /* reduce font size even further for smaller screens */
+      text-shadow:1px 1px 1px #3998d3 ; 
+    }
+  }
+
+  .animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+
+  .animate__animated.animate__swing {
+    --animate-duration: 2s;
+  }

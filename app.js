@@ -124,7 +124,7 @@ const products = [
 const div = document.querySelector (".content") 
 
 for (let i = 0; i < products.length; i++)
-     {div.innerHTML +=`<div class ="main-container">
+     {div.innerHTML +=`<div class ="main-container animate__animated animate__bounce">
       <h2 id ="me">Name:</h2>
       <h3 id ="you"> ${products[i].name}</h3> <b><hr class ="hr"></b>
       <h3 id ="we">PRICE:</h3> <h5>${products[i].price}<h5>
